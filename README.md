@@ -1,1 +1,8 @@
-# Fidelity-Charitable
+Fidelity Charitable is a charitable giving platform that helps donors manage their donations efficiently through a donor-advised fund (DAF) called the Giving Account. Donors can contribute various types of assets, including cash, stocks, mutual funds, and other eligible investments, either directly through their Fidelity accounts or by transferring assets from external financial institutions. Once donated, these assets can be invested for potential tax-free growth, and donors can recommend grants to eligible charitable organizations of their choice. Fidelity Charitable also provides advisor support, investment management options, and guidance to help donors make informed charitable giving decisions. The platform simplifies the entire donation process, from asset contributions and account management to grant recommendations, tracking donations, and providing potential tax benefits, making charitable giving more flexible, organized, and impactful.
+
+
+
+At Fidelity, I work on a centralized authorization platform that standardizes policy validation and permission evaluation for more than 70 enterprise applications.
+The backend is developed using Java and Spring Boot, with REST APIs for integration with consuming applications. We have Oracle and DB2 as relational data sources, and use Hibernate, JPA, and optimized repository queries for database access.
+One important architectural concern is authorization performance, because this is a shared platform that multiple applications depend on. We've worked on optimizing data-access paths, reducing runtime dependencies, and introducing in-memory lookups where appropriate.
+My work also involves technical spikes around customer authorization, tokenization, and service orchestration, along with reviewing service integration patterns and onboarding approaches. On the delivery side, I've worked with Jenkins and uDeploy workflows.
